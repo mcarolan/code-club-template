@@ -1,0 +1,61 @@
+@import url("reset.css");
+
+body {
+	font-family: Arial;
+}
+
+p {
+    padding: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#header {
+    height: 100px;
+    width: 1000px;
+    background-image: url('header-background.png');
+    background-repeat: repeat-x;
+}
+
+#header h1 {
+	line-height: 100px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 21pt;
+}
+
+#navigation {
+    height: 30px;
+    width: 1000px;
+    background: #666666;
+}
+
+#navigation a, a:visited {
+	color: #FFFFFF;
+}
+
+#navigation ul {
+	line-height: 30px;
+}
+
+#navigation ul li {
+	display: inline;
+	padding-left: 20px;
+}
+
+#content {
+    background: #DDDDDD;
+    width: 1000;
+}
+
+#footer {
+    height: 40px;
+    width: 1000px;
+    background: #666666;
+    color: #FFFFFF;
+    text-align: center;
+}
+
